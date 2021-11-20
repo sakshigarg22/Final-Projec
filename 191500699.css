@@ -1,0 +1,166 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    background-color: #fff;
+    
+}
+.container{
+    width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   font-size: 20px;
+}
+.left{
+    background-color: #000;
+    position: fixed;
+    color: white;
+    height: 750px;
+    width: 25%;
+}
+.left img{
+   border: 8px solid rgb(51, 45, 45);
+   box-shadow: rgb(73, 65, 65);
+    border-radius: 50%;
+    height: 150px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.left h2{
+    text-align: center;
+}
+
+.mid p{
+    margin-left: 40px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 50px;
+    font-size: 17px;
+    
+}
+.mid i{
+    margin-right: 15px;
+    border-radius: 50%;
+    
+
+}
+.mid a{
+    text-decoration: none;
+    color: white;
+}
+.mid p:hover{
+    color: steelblue;
+}
+.icons ul{
+    list-style: none;
+    margin: 30px;
+}
+.icons ul li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: #424242;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.icons ul li i{
+    color: white;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+
+}
+.icons ul li:nth-child(1):hover{
+    background-color: #1877F2;
+}
+.icons ul li:nth-child(2):hover{
+    background-color: #1DA1F2;
+}
+.icons ul li:nth-child(3):hover{
+    background-color: #FF3300;
+}
+.icons ul li:nth-child(4):hover{
+    background-color: #0A66C2;
+}
+.icons ul li:nth-child(5):hover{
+    background-color: #EA4C89;
+}
+.foot h6{
+    text-align: center;
+
+}
+.foot p{
+    margin-top: 2px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 1px;
+}
+.foot span{
+    color: steelblue;
+}
+.right{
+    margin-left: 26%;
+    
+    
+    
+}
+.part2 ul#menu li b{
+    color: black;
+}
+.part2 ul#menu li{
+    color: grey;
+}
+
+ h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(29, 91, 124);
+}
+.right p{
+    font-family: 'Saira Condensed', sans-serif;
+    color: grey;
+}
+.right2{
+    margin: 50px auto ;
+    width: -26%;
+    padding: 8px;
+}
+
+.part1{
+    float: left;
+    height: 700px;
+}
+
+.part1 img{
+    float: left;
+    width: 300px;
+    height: 360px;
+    padding: 0 10px 0 0;
+    margin:20px ;
+}
+.part2 p{
+    font-family: 'Estonia', cursive;
+    margin-top: 10px;
+    
+}
+.part2 {
+    text-align: justify;
+    /* padding: 10px; */
+    /* margin-left: 10px; */
+    font-family: 'Estonia', cursive;
+    
+}
+.about{
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+.about p{
+    margin: 10px;
+}
+.part2 ul#menu li i{
+    color: rgb(29, 91, 124);
+    margin: 10px;
+}
